@@ -53,6 +53,16 @@ The services app is up and running on **localhost:3000**
 
 The front-end app is up and running on **localhost:3001**
 
+<h3>To bootsrap with initial data -</h3>
+
+<ul>
+  <li>Run the requests one by one from the <b>LMS Collection to Bootstrap App.postman_collection.json</b></li>
+  <li>You can import the collection <b>Postman</b> and run one after another</li>
+  <li>The requests 'Create Course M By Teacher N' will need token. So add token of 'Teacher N' to request 'Create Course M By Teacher N'</li>
+</ul>
+
+The front-end app is up and running on **localhost:3001**
+
 <h1>Things covered</h1>
 
 <ul>
