@@ -1,0 +1,7 @@
+.DS_Store
+lms-services/dist/
+lms-services/node_modules/
+lms-services/package-lock.json
+lms-ui/.next/
+lms-ui/node_modules/
+lms-ui/package-lock.json
