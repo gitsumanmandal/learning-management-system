@@ -9,11 +9,6 @@
 
 <h1>How to run locally ?</h1>
 
-<h3>To start DB server -</h3>
-<ul>
-  <li>docker run -d -p 5001:27017 --name=lms_db mongo:latest</li>
-</ul>
-
 <ul>
   <li>
     Run <b>git clone https://github.com/gitsumanmandal/learning-management-system.git</b>
@@ -25,6 +20,12 @@
 <br/>
 
 Now you can see 2 folders. One **lms-services** for API & services, and other one **lms-ui** for front end
+
+<h3>To start DB server -</h3>
+
+<ul>
+  <li>docker run -d -p 5001:27017 --name=lms_db mongo:latest</li>
+</ul>
 
 <u><h3>To start <b>lms-service</b></h3></u>
 
