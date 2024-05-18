@@ -1,6 +1,6 @@
 <h1>Welcome to LMS by Suman M.</h1>
 
-<h3>Pre-requisite -</h3>
+<h3>Pre-requisites before you start. You must have in your local machine -</h3>
 
 <ul>
   <li>node js</li>
@@ -9,9 +9,14 @@
 
 <h1>How to run locally ?</h1>
 
+<h3>To start DB server -</h3>
+<ul>
+  <li>docker run -d -p 5001:27017 --name=lms_db mongo:latest</li>
+</ul>
+
 <ul>
   <li>
-    Run <b>git clone <></b>
+    Run <b>git clone https://github.com/gitsumanmandal/learning-management-system.git</b>
   </li>
   <li>
     Then run <b>cd learning-management-system</b>
