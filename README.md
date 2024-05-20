@@ -61,7 +61,7 @@ The front-end app is up and running on **localhost:3001**
   <li>The requests 'Create Course M By Teacher N' will need token. So add token of 'Teacher N' to request 'Create Course M By Teacher N'</li>
 </ul>
 
-The front-end app is up and running on **localhost:3001**
+Now navigate to **localhost:3001/sign-in** and login with a student. You can check the all courses, enroll courses, you can enroll into course, then mark lessons learned, and see the progress (_till this developed_)
 
 <h1>Things covered</h1>
 
