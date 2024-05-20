@@ -40,7 +40,7 @@
 				"header": [],
 				"body": {
 					"mode": "raw",
-					"raw": "{\n    \"role\": \"TEACHER\",\n    \"name\": \"Albert Einstein\",\n    \"userName\": \"albert\",\n    \"emailId\": \"albert@mail.com\",\n    \"contactNo\": \"9874814459\",\n    \"password\": \"Hello@123\"\n},",
+					"raw": "{\n    \"role\": \"TEACHER\",\n    \"name\": \"Albert Einstein\",\n    \"userName\": \"albert\",\n    \"emailId\": \"albert@mail.com\",\n    \"contactNo\": \"9874814459\",\n    \"password\": \"Hello@123\"\n}",
 					"options": {
 						"raw": {
 							"language": "json"
@@ -67,7 +67,7 @@
 				"header": [],
 				"body": {
 					"mode": "raw",
-					"raw": "{\n    \"role\": \"TEACHER\",\n    \"name\": \"Satyendra Nath Bose\",\n    \"userName\": \"bose\",\n    \"emailId\": \"bose@mail.com\",\n    \"contactNo\": \"9874814459\",\n    \"password\": \"Hello@123\"\n},",
+					"raw": "{\n    \"role\": \"TEACHER\",\n    \"name\": \"Satyendra Nath Bose\",\n    \"userName\": \"bose\",\n    \"emailId\": \"bose@mail.com\",\n    \"contactNo\": \"9874814459\",\n    \"password\": \"Hello@123\"\n}",
 					"options": {
 						"raw": {
 							"language": "json"
