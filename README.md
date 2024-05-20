@@ -33,7 +33,7 @@ Now you can see 2 folders. One **lms-services** for API & services, and other on
   <li>from <b>learning-management-system</b> folder run <b>cd lms-services</b></li>
   <li>run <b>npm i</b>
     <br/>
-    <i>(.env is already comitted, so son't need to worry about that)</i>
+    <i>(.env is already comitted, so don't need to worry about that)</i>
   </li>
   <li>Run <b>npm run start</b></li>
 </ul>
@@ -48,7 +48,7 @@ The services app is up and running on **localhost:3000**
     <br/>
     <i>(.env variables are already attached to start command, so son't need to worry about that)</i>
   </li>
-  <li>Run <b>npm run start</b></li>
+  <li>Run <b>npm run dev</b></li>
 </ul>
 
 The front-end app is up and running on **localhost:3001**
