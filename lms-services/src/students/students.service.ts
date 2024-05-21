@@ -16,7 +16,7 @@ export class StudentsService {
     private studentsRepository: Repository<Student>,
     @InjectRepository(Course)
     private coursesRepository: Repository<Course>,
-  ) {}
+  ) { }
 
   async create(createStudentDto: CreateStudentDto, userName?: string) {
     try {
@@ -29,7 +29,7 @@ export class StudentsService {
         lastUpdatedAt: new Date(),
       };
       const result = await this.studentsRepository.save(student);
-      return result;
+      return { message: 'Created successfully' };
     } catch (err) {
       throw err;
     }
@@ -38,7 +38,7 @@ export class StudentsService {
   async findAll() {
     try {
       const res = await this.studentsRepository.find();
-      return res;
+      return { data: res, message: 'All listed successfully' };
     } catch (err) {
       throw err;
     }
@@ -49,7 +49,7 @@ export class StudentsService {
       const res = await this.studentsRepository.findOne({
         where: { _id: new ObjectId(id) },
       });
-      return res;
+      return { data: res, message: 'One listed successfully' };
     } catch (err) {
       throw err;
     }
@@ -67,7 +67,7 @@ export class StudentsService {
         { _id: new ObjectId(id) },
         updateStudentDto,
       );
-      return result;
+      return { message: 'Updated successfully' };
     } catch (err) {
       throw err;
     }
@@ -78,7 +78,7 @@ export class StudentsService {
       const res = await this.studentsRepository.delete({
         _id: new ObjectId(id),
       });
-      return res;
+      return { message: 'Removed successfully' };
     } catch (err) {
       throw err;
     }
@@ -132,8 +132,11 @@ export class StudentsService {
         (item) => item.courseId === id.toString(),
       );
       return {
-        learned: learned,
-        progress: (learned.length / totalLessons) * 100,
+        data: {
+          learned: learned,
+          progress: (learned.length / totalLessons) * 100,
+        },
+        message: 'Listed progress'
       };
     } catch (err) {
       throw err;

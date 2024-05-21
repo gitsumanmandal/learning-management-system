@@ -11,8 +11,9 @@ export class AuthService {
     private jwtService: JwtService,
   ) {}
 
-  async logIn(loginUserDto: LoginUserDto): Promise<{ access_token: string }> {
-    const user = await this.usersService.findBy(loginUserDto);
+  async logIn(loginUserDto: LoginUserDto): Promise<object> {
+    const userData = await this.usersService.findBy(loginUserDto);
+    const user = userData.data;
     const isValid = await bcrypt.compare(loginUserDto.password, user.password);
     if (!isValid) throw new UnauthorizedException();
     const payload = {
@@ -24,7 +25,8 @@ export class AuthService {
       contactNo: user.contactNo,
     };
     return {
-      access_token: await this.jwtService.signAsync(payload),
+      data: { access_token: await this.jwtService.signAsync(payload)},
+      message: 'Logged in successfully',
     };
   }
 }

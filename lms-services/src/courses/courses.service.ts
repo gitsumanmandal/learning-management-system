@@ -1,4 +1,4 @@
-import { Injectable } from '@nestjs/common';
+import { Injectable, UnauthorizedException } from '@nestjs/common';
 import { CreateCourseDto } from './dto/create-course.dto';
 import { UpdateCourseDto } from './dto/update-course.dto';
 import { Repository } from 'typeorm';
@@ -35,7 +35,7 @@ export class CoursesService {
         });
       });
       const result = await this.coursesRepository.save(course);
-      return result;
+      return { message: 'Created successfully'};
     } catch (err) {
       throw err;
     }
@@ -44,18 +44,33 @@ export class CoursesService {
   async findAll() {
     try {
       const res = await this.coursesRepository.find();
-      return res;
+      const result = res.map(ele => {
+        return {
+          _id: ele._id,
+          name: ele.name,
+          teacher: ele.teacher,
+          totalLessons: ele.totalLessons,
+          enrollement: ele.enrollement
+        }
+      })
+      return { data: result, message: 'All listed successfully'};
     } catch (err) {
       throw err;
     }
   }
 
-  async findOne(id: ObjectId) {
+  async findOne(id: ObjectId, req: any) {
     try {
       const res = await this.coursesRepository.findOne({
         where: { _id: new ObjectId(id) },
       });
-      return res;
+      if(req.user.role === 'STUDENT') {
+        if(!res.enrollement.includes(req.user.userName)) throw UnauthorizedException
+      }
+      if(req.user.role === 'TEACHER') {
+        if(!res.teacher === req.user.name) throw UnauthorizedException
+      }
+      return { data: res, message: 'One listed successfully'};
     } catch (err) {
       throw err;
     }
@@ -67,7 +82,7 @@ export class CoursesService {
         { _id: new ObjectId(id) },
         updateCourseDto,
       );
-      return result;
+      return { message: 'Updated successfully'};
     } catch (err) {
       throw err;
     }
@@ -78,7 +93,7 @@ export class CoursesService {
       const res = await this.coursesRepository.delete({
         _id: new ObjectId(id),
       });
-      return res;
+      return { message: 'Remved successfully'};
     } catch (err) {
       throw err;
     }
@@ -95,7 +110,7 @@ export class CoursesService {
         { _id: new ObjectId(id) },
         updateCourseDto,
       );
-      return { message: 'Successfully enrolled' };
+      return { message: 'Enrolled successfully' };
     } catch (err) {
       throw err;
     }

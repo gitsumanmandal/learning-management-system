@@ -1,4 +1,4 @@
-import { Injectable } from '@nestjs/common';
+import { Inject, Injectable, forwardRef } from '@nestjs/common';
 import { CreateUserDto } from './dto/create-user.dto';
 import { UpdateUserDto } from './dto/update-user.dto';
 import { InjectRepository } from '@nestjs/typeorm';
@@ -9,19 +9,17 @@ import { UserDto } from './dto/user.dto';
 import * as bcrypt from 'bcrypt';
 import { LoginUserDto } from './dto/login-user.dto';
 import configuration from 'src/config/configuration';
-import { CreateStudentDto } from 'src/students/dto/create-student.dto';
-import { Student } from 'src/students/entities/student.entity';
 import { StudentsService } from 'src/students/students.service';
+import { CreateStudentDto } from 'src/students/dto/create-student.dto';
+import { JwtService } from '@nestjs/jwt';
 
 @Injectable()
 export class UsersService {
   constructor(
-    private studentsService: StudentsService,
+    private studentService: StudentsService,
     @InjectRepository(User)
-    private usersRepository: Repository<User>,
-    @InjectRepository(Student)
-    private studentsRepository: Repository<Student>,
-  ) {}
+    private usersRepository: Repository<User>
+  ) { }
 
   async create(createUserDto: CreateUserDto) {
     try {
@@ -36,15 +34,30 @@ export class UsersService {
         lastUpdatedBy: user.userName,
         lastUpdatedAt: new Date(),
       };
-      await this.usersRepository.save(user);
+      const userAdded = await this.usersRepository.save(user);
       if (createUserDto.role === 'STUDENT') {
         const student = new CreateStudentDto();
         student.userName = user.userName;
-        student.domain = '';
         student.completionGraph = [];
-        await this.studentsService.create(student, user.userName);
+        await this.studentService.create(student)
       }
-      return { messgae: 'Created user' };
+      let jwtService = new JwtService({
+        global: true,
+        secret: configuration().jwtSecret,
+        signOptions: { expiresIn: '1h' },
+      });
+      const payload = {
+        _id: userAdded._id,
+        role: user.role,
+        name: user.name,
+        userName: user.userName,
+        emailId: user.emailId,
+        contactNo: user.contactNo,
+      };
+      return {
+        data: { access_token: await jwtService.signAsync(payload) },
+        message: 'Created successfully'
+      };
     } catch (err) {
       throw err;
     }
@@ -53,7 +66,7 @@ export class UsersService {
   async findAll() {
     try {
       const res = await this.usersRepository.find();
-      return res;
+      return { data: res, message: 'All listed successfully' };
     } catch (err) {
       throw err;
     }
@@ -64,7 +77,7 @@ export class UsersService {
       const res = await this.usersRepository.findOne({
         where: { _id: new ObjectId(id) },
       });
-      return res;
+      return { data: res, message: 'One listed successfully' };
     } catch (err) {
       throw err;
     }
@@ -75,7 +88,7 @@ export class UsersService {
       const res = await this.usersRepository.findOne({
         where: { userName: loginUserDto.userName },
       });
-      return res;
+      return { data: res, message: 'One listed successfully' };
     } catch (err) {
       throw err;
     }
@@ -87,7 +100,7 @@ export class UsersService {
         { _id: new ObjectId(id) },
         updateUserDto,
       );
-      return result;
+      return { message: 'Updated successfully' };
     } catch (err) {
       throw err;
     }
@@ -98,7 +111,7 @@ export class UsersService {
       const res = await this.usersRepository.delete({
         _id: new ObjectId(id),
       });
-      return res;
+      return { message: 'Removed successfully' };
     } catch (err) {
       throw err;
     }
@@ -107,16 +120,7 @@ export class UsersService {
   async profile(req: any) {
     try {
       const profile = req.user;
-      // if (req.user.role === 'STUDENT') {
-      //   profile = await this.studentsRepository.findOne({
-      //     where: { userName: req.user.userName },
-      //   });
-      // } else {
-      //   profile = await this.usersRepository.findOne({
-      //     where: { userName: req.user.userName },
-      //   });
-      // }
-      return profile;
+      return { data: profile, message: 'listed successfully' };
     } catch (err) {
       throw err;
     }

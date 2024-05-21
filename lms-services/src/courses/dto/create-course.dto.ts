@@ -1,7 +1,8 @@
-import { OmitType, PickType } from '@nestjs/mapped-types';
+// import { OmitType, PickType } from '@nestjs/mapped-types';
 import { CourseDto, LessonDto, TopicDto } from './course.dto';
 import { IsNotEmpty, ValidateNested } from 'class-validator';
 import { Type } from 'class-transformer';
+import { OmitType, PickType } from '@nestjs/swagger';
 
 export class CreateCourseDto extends PickType(CourseDto, [
   'name',

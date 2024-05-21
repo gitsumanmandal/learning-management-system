@@ -1,0 +1,72 @@
+[
+    {
+        "role": "ADMIN",
+        "name": "Mumshad Mannambeth",
+        "userName": "mumshad",
+        "emailId": "mumshad@mail.com",
+        "contactNo": "9874814459",
+        "password": "$2b$07$SMEZOL9YftWNQsKjiL.BNOHf8SkPPBuK/C43FDLLWvC01W2FGJLey",
+        "metaData": {
+            "createdBy": "mumshad",
+            "createdAt": "2024-05-21T12:09:12.765+0000",
+            "lastUpdatedBy": "mumshad",
+            "lastUpdatedAt": "2024-05-21T12:09:12.765+0000"
+        }
+    },
+    {
+        "role": "TEACHER",
+        "name": "Albert Einstein",
+        "userName": "albert",
+        "emailId": "albert@mail.com",
+        "contactNo": "9874814459",
+        "password": "$2b$07$fA4VnSXuB5T4P9lYPQp2GeFfrV2rpCspbbldUq6kHNi05DabCcysa",
+        "metaData": {
+            "createdBy": "albert",
+            "createdAt": "2024-05-21T12:09:41.205+0000",
+            "lastUpdatedBy": "albert",
+            "lastUpdatedAt": "2024-05-21T12:09:41.205+0000"
+        }
+    },
+    {
+        "role": "TEACHER",
+        "name": "Satyendra Nath Bose",
+        "userName": "bose",
+        "emailId": "bose@mail.com",
+        "contactNo": "9874814459",
+        "password": "$2b$07$PXhYFrZK1EKbymYuiGj/ZuT/rM7.IDlOxYDGVYF1rhHHVfKouwngy",
+        "metaData": {
+            "createdBy": "bose",
+            "createdAt": "2024-05-21T12:10:04.405+0000",
+            "lastUpdatedBy": "bose",
+            "lastUpdatedAt": "2024-05-21T12:10:04.405+0000"
+        }
+    },
+    {
+        "role": "STUDENT",
+        "name": "Suman Mandal",
+        "userName": "suman",
+        "emailId": "suman@mail.com",
+        "contactNo": "9874814459",
+        "password": "$2b$07$T7QTC0MY6sJ7tyL6t6DOuubiNfdHCU.3Hk03cppADa3ENoJn.g0AS",
+        "metaData": {
+            "createdBy": "suman",
+            "createdAt": "2024-05-21T12:10:19.700+0000",
+            "lastUpdatedBy": "suman",
+            "lastUpdatedAt": "2024-05-21T12:10:19.700+0000"
+        }
+    },
+    {
+        "role": "STUDENT",
+        "name": "Ayan Mallick",
+        "userName": "ayan",
+        "emailId": "ayan@mail.com",
+        "contactNo": "9874814459",
+        "password": "$2b$07$PS2n4/k8dUcjBZ37GRDDl.D25r6bpzb2xbCM18ECRmzNTfIUvw7h6",
+        "metaData": {
+            "createdBy": "ayan",
+            "createdAt": "2024-05-21T12:10:36.347+0000",
+            "lastUpdatedBy": "ayan",
+            "lastUpdatedAt": "2024-05-21T12:10:36.347+0000"
+        }
+    }
+]

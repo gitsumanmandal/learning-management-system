@@ -1,0 +1,554 @@
+[
+    {
+        "name": "Nest JS Beginner",
+        "description": "This is core concepts' tutorial on Node JS for advanced learners only",
+        "lessons": [
+            {
+                "name": "Event Loop",
+                "description": "This is lesson on Event Loop",
+                "topics": [
+                    {
+                        "name": "Callback Queue",
+                        "description": "This is topic on Callback Queue",
+                        "content": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.",
+                        "id": "664c8f6e2d36d0ea96c5f604"
+                    },
+                    {
+                        "name": "Micro Task Queue",
+                        "description": "This is topic on Micro Task Queue",
+                        "content": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.",
+                        "id": "664c8f6e2d36d0ea96c5f605"
+                    }
+                ],
+                "id": "664c8f6e2d36d0ea96c5f603"
+            },
+            {
+                "name": "File Handling",
+                "description": "This is lesson on File Handling",
+                "topics": [
+                    {
+                        "name": "Read / Write",
+                        "description": "This is topic on Read / Write",
+                        "content": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.",
+                        "id": "664c8f6e2d36d0ea96c5f607"
+                    },
+                    {
+                        "name": "Pipe",
+                        "description": "This is topic on Pipe",
+                        "content": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.",
+                        "id": "664c8f6e2d36d0ea96c5f608"
+                    }
+                ],
+                "id": "664c8f6e2d36d0ea96c5f606"
+            },
+            {
+                "name": "Threading",
+                "description": "This is lesson on Threading",
+                "topics": [
+                    {
+                        "name": "Threadpool",
+                        "description": "This is topic on Threadpool",
+                        "content": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.",
+                        "id": "664c8f6e2d36d0ea96c5f60a"
+                    },
+                    {
+                        "name": "Libuv",
+                        "description": "This is topic on Libuv",
+                        "content": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.",
+                        "id": "664c8f6e2d36d0ea96c5f60b"
+                    }
+                ],
+                "id": "664c8f6e2d36d0ea96c5f609"
+            },
+            {
+                "name": "Middleware",
+                "description": "This is lesson on Middleware",
+                "topics": [
+                    {
+                        "name": "Auth Middleware",
+                        "description": "This is topic on Auth Middleware",
+                        "content": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.",
+                        "id": "664c8f6e2d36d0ea96c5f60d"
+                    },
+                    {
+                        "name": "Validation",
+                        "description": "This is topic on Validation",
+                        "content": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.",
+                        "id": "664c8f6e2d36d0ea96c5f60e"
+                    }
+                ],
+                "id": "664c8f6e2d36d0ea96c5f60c"
+            }
+        ],
+        "totalLessons": 4,
+        "status": "PENDING",
+        "teacher": "Albert Einstein",
+        "metaData": {
+            "createdBy": "TEACHER",
+            "createdAt": "2024-05-21T12:11:26.102+0000",
+            "lastUpdatedBy": "TEACHER",
+            "lastUpdatedAt": "2024-05-21T12:11:26.102+0000"
+        },
+        "enrollement": []
+    },
+    {
+        "name": "Nest JS Intermediate",
+        "description": "This is core concepts' tutorial on Node JS for advanced learners only",
+        "lessons": [
+            {
+                "name": "Event Loop",
+                "description": "This is lesson on Event Loop",
+                "topics": [
+                    {
+                        "name": "Callback Queue",
+                        "description": "This is topic on Callback Queue",
+                        "content": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.",
+                        "id": "664c8f762d36d0ea96c5f611"
+                    },
+                    {
+                        "name": "Micro Task Queue",
+                        "description": "This is topic on Micro Task Queue",
+                        "content": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.",
+                        "id": "664c8f762d36d0ea96c5f612"
+                    }
+                ],
+                "id": "664c8f762d36d0ea96c5f610"
+            },
+            {
+                "name": "File Handling",
+                "description": "This is lesson on File Handling",
+                "topics": [
+                    {
+                        "name": "Read / Write",
+                        "description": "This is topic on Read / Write",
+                        "content": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.",
+                        "id": "664c8f762d36d0ea96c5f614"
+                    },
+                    {
+                        "name": "Pipe",
+                        "description": "This is topic on Pipe",
+                        "content": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.",
+                        "id": "664c8f762d36d0ea96c5f615"
+                    }
+                ],
+                "id": "664c8f762d36d0ea96c5f613"
+            },
+            {
+                "name": "Threading",
+                "description": "This is lesson on Threading",
+                "topics": [
+                    {
+                        "name": "Threadpool",
+                        "description": "This is topic on Threadpool",
+                        "content": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.",
+                        "id": "664c8f762d36d0ea96c5f617"
+                    },
+                    {
+                        "name": "Libuv",
+                        "description": "This is topic on Libuv",
+                        "content": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.",
+                        "id": "664c8f762d36d0ea96c5f618"
+                    }
+                ],
+                "id": "664c8f762d36d0ea96c5f616"
+            },
+            {
+                "name": "Middleware",
+                "description": "This is lesson on Middleware",
+                "topics": [
+                    {
+                        "name": "Auth Middleware",
+                        "description": "This is topic on Auth Middleware",
+                        "content": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.",
+                        "id": "664c8f762d36d0ea96c5f61a"
+                    },
+                    {
+                        "name": "Validation",
+                        "description": "This is topic on Validation",
+                        "content": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.",
+                        "id": "664c8f762d36d0ea96c5f61b"
+                    }
+                ],
+                "id": "664c8f762d36d0ea96c5f619"
+            }
+        ],
+        "totalLessons": 4,
+        "status": "PENDING",
+        "teacher": "Albert Einstein",
+        "metaData": {
+            "createdBy": "TEACHER",
+            "createdAt": "2024-05-21T12:11:34.666+0000",
+            "lastUpdatedBy": "TEACHER",
+            "lastUpdatedAt": "2024-05-21T12:11:34.666+0000"
+        },
+        "enrollement": []
+    },
+    {
+        "name": "Nest JS Advanced",
+        "description": "This is core concepts' tutorial on Node JS for advanced learners only",
+        "lessons": [
+            {
+                "name": "Event Loop",
+                "description": "This is lesson on Event Loop",
+                "topics": [
+                    {
+                        "name": "Callback Queue",
+                        "description": "This is topic on Callback Queue",
+                        "content": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.",
+                        "id": "664c8f802d36d0ea96c5f61e"
+                    },
+                    {
+                        "name": "Micro Task Queue",
+                        "description": "This is topic on Micro Task Queue",
+                        "content": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.",
+                        "id": "664c8f802d36d0ea96c5f61f"
+                    }
+                ],
+                "id": "664c8f802d36d0ea96c5f61d"
+            },
+            {
+                "name": "File Handling",
+                "description": "This is lesson on File Handling",
+                "topics": [
+                    {
+                        "name": "Read / Write",
+                        "description": "This is topic on Read / Write",
+                        "content": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.",
+                        "id": "664c8f802d36d0ea96c5f621"
+                    },
+                    {
+                        "name": "Pipe",
+                        "description": "This is topic on Pipe",
+                        "content": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.",
+                        "id": "664c8f802d36d0ea96c5f622"
+                    }
+                ],
+                "id": "664c8f802d36d0ea96c5f620"
+            },
+            {
+                "name": "Threading",
+                "description": "This is lesson on Threading",
+                "topics": [
+                    {
+                        "name": "Threadpool",
+                        "description": "This is topic on Threadpool",
+                        "content": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.",
+                        "id": "664c8f802d36d0ea96c5f624"
+                    },
+                    {
+                        "name": "Libuv",
+                        "description": "This is topic on Libuv",
+                        "content": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.",
+                        "id": "664c8f802d36d0ea96c5f625"
+                    }
+                ],
+                "id": "664c8f802d36d0ea96c5f623"
+            },
+            {
+                "name": "Middleware",
+                "description": "This is lesson on Middleware",
+                "topics": [
+                    {
+                        "name": "Auth Middleware",
+                        "description": "This is topic on Auth Middleware",
+                        "content": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.",
+                        "id": "664c8f802d36d0ea96c5f627"
+                    },
+                    {
+                        "name": "Validation",
+                        "description": "This is topic on Validation",
+                        "content": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.",
+                        "id": "664c8f802d36d0ea96c5f628"
+                    }
+                ],
+                "id": "664c8f802d36d0ea96c5f626"
+            }
+        ],
+        "totalLessons": 4,
+        "status": "PENDING",
+        "teacher": "Albert Einstein",
+        "metaData": {
+            "createdBy": "TEACHER",
+            "createdAt": "2024-05-21T12:11:44.842+0000",
+            "lastUpdatedBy": "TEACHER",
+            "lastUpdatedAt": "2024-05-21T12:11:44.842+0000"
+        },
+        "enrollement": []
+    },
+    {
+        "name": "Express JS Beginner",
+        "description": "This is core concepts' tutorial on Node JS for advanced learners only",
+        "lessons": [
+            {
+                "name": "Event Loop",
+                "description": "This is lesson on Event Loop",
+                "topics": [
+                    {
+                        "name": "Callback Queue",
+                        "description": "This is topic on Callback Queue",
+                        "content": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.",
+                        "id": "664c8f8c2d36d0ea96c5f62b"
+                    },
+                    {
+                        "name": "Micro Task Queue",
+                        "description": "This is topic on Micro Task Queue",
+                        "content": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.",
+                        "id": "664c8f8c2d36d0ea96c5f62c"
+                    }
+                ],
+                "id": "664c8f8c2d36d0ea96c5f62a"
+            },
+            {
+                "name": "File Handling",
+                "description": "This is lesson on File Handling",
+                "topics": [
+                    {
+                        "name": "Read / Write",
+                        "description": "This is topic on Read / Write",
+                        "content": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.",
+                        "id": "664c8f8c2d36d0ea96c5f62e"
+                    },
+                    {
+                        "name": "Pipe",
+                        "description": "This is topic on Pipe",
+                        "content": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.",
+                        "id": "664c8f8c2d36d0ea96c5f62f"
+                    }
+                ],
+                "id": "664c8f8c2d36d0ea96c5f62d"
+            },
+            {
+                "name": "Threading",
+                "description": "This is lesson on Threading",
+                "topics": [
+                    {
+                        "name": "Threadpool",
+                        "description": "This is topic on Threadpool",
+                        "content": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.",
+                        "id": "664c8f8c2d36d0ea96c5f631"
+                    },
+                    {
+                        "name": "Libuv",
+                        "description": "This is topic on Libuv",
+                        "content": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.",
+                        "id": "664c8f8c2d36d0ea96c5f632"
+                    }
+                ],
+                "id": "664c8f8c2d36d0ea96c5f630"
+            },
+            {
+                "name": "Middleware",
+                "description": "This is lesson on Middleware",
+                "topics": [
+                    {
+                        "name": "Auth Middleware",
+                        "description": "This is topic on Auth Middleware",
+                        "content": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.",
+                        "id": "664c8f8c2d36d0ea96c5f634"
+                    },
+                    {
+                        "name": "Validation",
+                        "description": "This is topic on Validation",
+                        "content": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.",
+                        "id": "664c8f8c2d36d0ea96c5f635"
+                    }
+                ],
+                "id": "664c8f8c2d36d0ea96c5f633"
+            }
+        ],
+        "totalLessons": 4,
+        "status": "PENDING",
+        "teacher": "Satyendra Nath Bose",
+        "metaData": {
+            "createdBy": "TEACHER",
+            "createdAt": "2024-05-21T12:11:56.696+0000",
+            "lastUpdatedBy": "TEACHER",
+            "lastUpdatedAt": "2024-05-21T12:11:56.696+0000"
+        },
+        "enrollement": []
+    },
+    {
+        "name": "Express JS Intermediate",
+        "description": "This is core concepts' tutorial on Node JS for advanced learners only",
+        "lessons": [
+            {
+                "name": "Event Loop",
+                "description": "This is lesson on Event Loop",
+                "topics": [
+                    {
+                        "name": "Callback Queue",
+                        "description": "This is topic on Callback Queue",
+                        "content": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.",
+                        "id": "664c8f932d36d0ea96c5f638"
+                    },
+                    {
+                        "name": "Micro Task Queue",
+                        "description": "This is topic on Micro Task Queue",
+                        "content": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.",
+                        "id": "664c8f932d36d0ea96c5f639"
+                    }
+                ],
+                "id": "664c8f932d36d0ea96c5f637"
+            },
+            {
+                "name": "File Handling",
+                "description": "This is lesson on File Handling",
+                "topics": [
+                    {
+                        "name": "Read / Write",
+                        "description": "This is topic on Read / Write",
+                        "content": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.",
+                        "id": "664c8f932d36d0ea96c5f63b"
+                    },
+                    {
+                        "name": "Pipe",
+                        "description": "This is topic on Pipe",
+                        "content": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.",
+                        "id": "664c8f932d36d0ea96c5f63c"
+                    }
+                ],
+                "id": "664c8f932d36d0ea96c5f63a"
+            },
+            {
+                "name": "Threading",
+                "description": "This is lesson on Threading",
+                "topics": [
+                    {
+                        "name": "Threadpool",
+                        "description": "This is topic on Threadpool",
+                        "content": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.",
+                        "id": "664c8f932d36d0ea96c5f63e"
+                    },
+                    {
+                        "name": "Libuv",
+                        "description": "This is topic on Libuv",
+                        "content": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.",
+                        "id": "664c8f932d36d0ea96c5f63f"
+                    }
+                ],
+                "id": "664c8f932d36d0ea96c5f63d"
+            },
+            {
+                "name": "Middleware",
+                "description": "This is lesson on Middleware",
+                "topics": [
+                    {
+                        "name": "Auth Middleware",
+                        "description": "This is topic on Auth Middleware",
+                        "content": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.",
+                        "id": "664c8f932d36d0ea96c5f641"
+                    },
+                    {
+                        "name": "Validation",
+                        "description": "This is topic on Validation",
+                        "content": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.",
+                        "id": "664c8f932d36d0ea96c5f642"
+                    }
+                ],
+                "id": "664c8f932d36d0ea96c5f640"
+            }
+        ],
+        "totalLessons": 4,
+        "status": "PENDING",
+        "teacher": "Satyendra Nath Bose",
+        "metaData": {
+            "createdBy": "TEACHER",
+            "createdAt": "2024-05-21T12:12:03.298+0000",
+            "lastUpdatedBy": "TEACHER",
+            "lastUpdatedAt": "2024-05-21T12:12:03.298+0000"
+        },
+        "enrollement": []
+    },
+    {
+        "name": "Express JS Advanced",
+        "description": "This is core concepts' tutorial on Node JS for advanced learners only",
+        "lessons": [
+            {
+                "name": "Event Loop",
+                "description": "This is lesson on Event Loop",
+                "topics": [
+                    {
+                        "name": "Callback Queue",
+                        "description": "This is topic on Callback Queue",
+                        "content": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.",
+                        "id": "664c8f982d36d0ea96c5f645"
+                    },
+                    {
+                        "name": "Micro Task Queue",
+                        "description": "This is topic on Micro Task Queue",
+                        "content": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.",
+                        "id": "664c8f982d36d0ea96c5f646"
+                    }
+                ],
+                "id": "664c8f982d36d0ea96c5f644"
+            },
+            {
+                "name": "File Handling",
+                "description": "This is lesson on File Handling",
+                "topics": [
+                    {
+                        "name": "Read / Write",
+                        "description": "This is topic on Read / Write",
+                        "content": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.",
+                        "id": "664c8f982d36d0ea96c5f648"
+                    },
+                    {
+                        "name": "Pipe",
+                        "description": "This is topic on Pipe",
+                        "content": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.",
+                        "id": "664c8f982d36d0ea96c5f649"
+                    }
+                ],
+                "id": "664c8f982d36d0ea96c5f647"
+            },
+            {
+                "name": "Threading",
+                "description": "This is lesson on Threading",
+                "topics": [
+                    {
+                        "name": "Threadpool",
+                        "description": "This is topic on Threadpool",
+                        "content": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.",
+                        "id": "664c8f982d36d0ea96c5f64b"
+                    },
+                    {
+                        "name": "Libuv",
+                        "description": "This is topic on Libuv",
+                        "content": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.",
+                        "id": "664c8f982d36d0ea96c5f64c"
+                    }
+                ],
+                "id": "664c8f982d36d0ea96c5f64a"
+            },
+            {
+                "name": "Middleware",
+                "description": "This is lesson on Middleware",
+                "topics": [
+                    {
+                        "name": "Auth Middleware",
+                        "description": "This is topic on Auth Middleware",
+                        "content": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.",
+                        "id": "664c8f982d36d0ea96c5f64e"
+                    },
+                    {
+                        "name": "Validation",
+                        "description": "This is topic on Validation",
+                        "content": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.",
+                        "id": "664c8f982d36d0ea96c5f64f"
+                    }
+                ],
+                "id": "664c8f982d36d0ea96c5f64d"
+            }
+        ],
+        "totalLessons": 4,
+        "status": "PENDING",
+        "teacher": "Satyendra Nath Bose",
+        "metaData": {
+            "createdBy": "TEACHER",
+            "createdAt": "2024-05-21T12:12:08.884+0000",
+            "lastUpdatedBy": "TEACHER",
+            "lastUpdatedAt": "2024-05-21T12:12:08.884+0000"
+        },
+        "enrollement": []
+    }
+]

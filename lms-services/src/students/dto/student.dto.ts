@@ -8,10 +8,6 @@ export class StudentDto {
   userName: string;
 
   @IsNotEmpty()
-  @IsString()
-  domain: string;
-
-  @IsNotEmpty()
   @ValidateNested({ each: true })
   @Type(() => CompletionGraphtDto)
   completionGraph: CompletionGraphtDto[];

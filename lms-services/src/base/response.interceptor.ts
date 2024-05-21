@@ -17,6 +17,15 @@ export class ResponseInterceptor<T> implements NestInterceptor<T, Response<T>> {
     context: ExecutionContext,
     next: CallHandler,
   ): Observable<Response<T>> {
-    return next.handle().pipe(map((data) => ({ data })));
+    return next.handle().pipe(map((result) =>
+      (this.makeResponse(result,context))
+    ));
+  }
+  private makeResponse(result: any, context:ExecutionContext): any {
+    const res: any = {
+      data: result.data,
+      message: result.message,
+    }
+    return res;
   }
 }

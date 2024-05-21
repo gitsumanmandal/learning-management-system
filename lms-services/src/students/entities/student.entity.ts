@@ -9,9 +9,6 @@ export class Student {
   @Column()
   userName: string;
 
-  @Column()
-  domain: string;
-
   @Column(() => CompletionGraph)
   completionGraph: CompletionGraph[];
 

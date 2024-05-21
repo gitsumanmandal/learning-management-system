@@ -53,6 +53,7 @@ const Course = () => {
             `http://localhost:3000/students/progressMeter/${state.id}`,
             config
         )
+        console.log(progress.data.data);
         setProgressPercentage(progress.data.data.progress)
         setLearnedLessons(() => progress.data.data.learned.map(ele => ele.lessonId))
     }
