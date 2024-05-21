@@ -27,7 +27,7 @@ import configuration from './config/configuration';
       port: 5001,
       username: 'root',
       password: '',
-      database: 'lms2',
+      database: 'lms',
       autoLoadEntities: true,
       synchronize: true,
     }),
