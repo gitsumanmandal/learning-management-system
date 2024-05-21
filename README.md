@@ -58,7 +58,7 @@ The services app is up and running on **localhost:3000**
 
 The front-end app is up and running on **localhost:3001**
 
-Now navigate to **localhost:3001/sign-in** and login with a student. You can check the all courses, enroll courses, you can enroll into course, then mark lessons learned, and see the progress (_till this developed_).
+Now navigate to **localhost:3001/sign-in** and login with a student (example student credential - **user: suman, password: Hello@123**). You can check the all courses, enroll courses, you can enroll into course, then mark lessons learned, and see the progress (_till this developed_).
 
 You can also check **localhost:3000/api** for OpenAPI Swagger Documentation.
 
