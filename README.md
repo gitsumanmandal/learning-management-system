@@ -33,12 +33,13 @@ Now you can see 3 folders. One **lms-services** for API & services, and other on
 <u><h3>To start <b>lms-service</b></h3></u>
 
 <ul>
-  <li>from <b>learning-management-system</b> folder run <b>cd lms-services</b></li>
+  <li>Open a new terminal, from <b>learning-management-system</b> folder run <b>cd lms-services</b></li>
   <li>Run <b>npm i</b>
     <br/>
     <i>(.env is already comitted, so don't need to worry about that)</i>
   </li>
   <li>Run <b>npm run start</b></li>
+  <li>Keep the terminal open</li>
 </ul>
 
 The services app is up and running on **localhost:3000**
@@ -46,12 +47,13 @@ The services app is up and running on **localhost:3000**
 <h3>To start <b>lms-ui</b></h3>
 
 <ul>
-  <li>from <b>learning-management-system</b> folder run <b>cd lms-ui</b></li>
+  <li>Open a new terminal, from <b>learning-management-system</b> folder run <b>cd lms-ui</b></li>
   <li>Run <b>npm i</b>
     <br/>
     <i>(.env variables are already attached to start command, so son't need to worry about that)</i>
   </li>
   <li>Run <b>npm run dev</b></li>
+  <li>Keep the terminal open</li>
 </ul>
 
 The front-end app is up and running on **localhost:3001**
