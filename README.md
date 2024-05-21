@@ -19,19 +19,22 @@
 </ul>
 <br/>
 
-Now you can see 2 folders. One **lms-services** for API & services, and other one **lms-ui** for front end
+Now you can see 3 folders. One **lms-services** for API & services, and other one **lms-ui** for front end, **lms-migration** for initial migration data.
 
 <h3>To start DB server -</h3>
 
 <ul>
   <li>docker run -d -p 5001:27017 --name=lms_db mongo:latest</li>
+  <li>from <b>learning-management-system</b> folder run <b>cd lms-migration</b></li>
+  <li>Run <b>npm i</b></li>
+  <li>Run <b>node index.js</b></li>
 </ul>
 
 <u><h3>To start <b>lms-service</b></h3></u>
 
 <ul>
   <li>from <b>learning-management-system</b> folder run <b>cd lms-services</b></li>
-  <li>run <b>npm i</b>
+  <li>Run <b>npm i</b>
     <br/>
     <i>(.env is already comitted, so don't need to worry about that)</i>
   </li>
@@ -44,7 +47,7 @@ The services app is up and running on **localhost:3000**
 
 <ul>
   <li>from <b>learning-management-system</b> folder run <b>cd lms-ui</b></li>
-  <li>run <b>npm i</b>
+  <li>Run <b>npm i</b>
     <br/>
     <i>(.env variables are already attached to start command, so son't need to worry about that)</i>
   </li>
@@ -53,15 +56,9 @@ The services app is up and running on **localhost:3000**
 
 The front-end app is up and running on **localhost:3001**
 
-<h3>To bootsrap with initial data -</h3>
+Now navigate to **localhost:3001/sign-in** and login with a student. You can check the all courses, enroll courses, you can enroll into course, then mark lessons learned, and see the progress (_till this developed_).
 
-<ul>
-  <li>Run the requests one by one from the <b>LMS Collection to Bootstrap App.postman_collection.json</b></li>
-  <li>You can import the collection <b>Postman</b> and run one after another</li>
-  <li>The requests 'Create Course M By Teacher N' will need token. So add token of 'Teacher N' to request 'Create Course M By Teacher N'</li>
-</ul>
-
-Now navigate to **localhost:3001/sign-in** and login with a student. You can check the all courses, enroll courses, you can enroll into course, then mark lessons learned, and see the progress (_till this developed_)
+You can also check **localhost:3000/api** for OpenAPI Swagger Documentation.
 
 <h1>Things covered</h1>
 
